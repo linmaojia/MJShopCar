@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>brandName</key>
+		<string>A21官方旗舰店</string>
+		<key>products</key>
+		<array>
+			<dict>
+				<key>productName</key>
+				<string>以纯线上品牌a21 2017夏装新款修身短袖T恤男圆领字母印花T恤4711330009 特白 170/84A/M</string>
+				<key>productRemark</key>
+				<string>颜色:特白 尺码:170/84A/M 数量:1 </string>
+				<key>productPicUri</key>
+				<string>https://wx1.sinaimg.cn/large/005ZvVAegy1ffpbi0ej5jj30m80m8ad0.jpg</string>
+				<key>productPrice</key>
+				<integer>75</integer>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>productName</key>
+				<string>以纯线上品牌a21 2017夏装新款T恤男简约时尚印花圆领修身短袖上衣4721330017 浅蓝 170/84A(M)</string>
+				<key>productRemark</key>
+				<string>颜色:浅灰 尺码:170/84A/M 数量:1 </string>
+				<key>productPicUri</key>
+				<string>https://wx3.sinaimg.cn/large/005ZvVAegy1ffpbhyp247j30m80m8422.jpg</string>
+				<key>productPrice</key>
+				<integer>79</integer>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>productName</key>
+				<string>以纯线上品牌a21 2017夏装新款polo衫男简约字母印花翻领短袖4721332000 特白 M</string>
+				<key>productRemark</key>
+				<string>颜色:浅蓝 尺码:170/84A/M 数量:1 </string>
+				<key>productPicUri</key>
+				<string>https://wx2.sinaimg.cn/large/005ZvVAegy1ffpbi0q8nsj30m80m8n0g.jpg</string>
+				<key>productPrice</key>
+				<integer>109</integer>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>brandName</key>
+		<string>良品铺子旗舰店</string>
+		<key>products</key>
+		<array>
+			<dict>
+				<key>productName</key>
+				<string>良品铺子麻薯 早餐食品糯米糍糕点特产美食小吃零食大礼包 组合</string>
+				<key>productRemark</key>
+				<string>重量: 0.268kg 规格: 栆夹核桃 258/袋</string>
+				<key>productPicUri</key>
+				<string>http://wx1.sinaimg.cn/mw690/005ZvVAegy1ffqfe7um0hj30m80m8gpc.jpg</string>
+				<key>productPrice</key>
+				<real>26.8</real>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>productName</key>
+				<string>￼ 良品铺子香酥小黄鱼舟山特产香辣味小吃小黄鱼干零食即食海鲜袋装</string>
+				<key>productRemark</key>
+				<string>重量: 0.268kg 规格: 栆夹核桃 258/袋</string>
+				<key>productPicUri</key>
+				<string>http://wx3.sinaimg.cn/mw690/005ZvVAegy1ffqfe8nh1kj30m80m879w.jpg</string>
+				<key>productPrice</key>
+				<real>86.8</real>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>brandName</key>
+		<string>三只松鼠旗舰店</string>
+		<key>products</key>
+		<array>
+			<dict>
+				<key>productName</key>
+				<string>【京东超市】三只松鼠 坚果炒货 零食奶油味 夏威夷果265g/袋</string>
+				<key>productRemark</key>
+				<string>重量: 0.268kg 规格: 栆夹核桃 258/袋</string>
+				<key>productPicUri</key>
+				<string>http://wx3.sinaimg.cn/mw690/005ZvVAegy1ffqfe7h0t4j30m80m8dkx.jpg</string>
+				<key>productPrice</key>
+				<real>28.9</real>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>productName</key>
+				<string>￼ 【京东超市】三只松鼠干果零食特产一等红枣子夹核桃脆枣夹核桃仁258g/袋</string>
+				<key>productRemark</key>
+				<string>重量: 0.268kg 规格: 栆夹核桃 258/袋</string>
+				<key>productPicUri</key>
+				<string>http://wx4.sinaimg.cn/mw690/005ZvVAegy1ffqfe91wwrj30m80m8jxc.jpg</string>
+				<key>productPrice</key>
+				<real>6.8</real>
+				<key>productQty</key>
+				<integer>1</integer>
+				<key>productStocks</key>
+				<integer>200</integer>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

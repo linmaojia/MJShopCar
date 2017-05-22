@@ -1,0 +1,6 @@
+framework module Pods_MJShopCar {
+  umbrella header "Pods-MJShopCar-umbrella.h"
+
+  export *
+  module * { export * }
+}
