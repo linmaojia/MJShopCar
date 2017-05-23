@@ -66,7 +66,7 @@ class JVShopcartViewController: UIViewController,JVShopcartFormatDelegate {
         
         view.shopcartBotttomViewSettleBtnBlock = {() in
             var settleArr =  weakSelf?.shopcartFormat.shopcartBotttomViewSettleBtnBlock()
-            print(settleArr?.count)
+            print(settleArr)
             //push 到 结算页面
         }
         

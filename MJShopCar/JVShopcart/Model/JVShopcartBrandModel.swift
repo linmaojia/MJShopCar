@@ -8,7 +8,9 @@
 
 import UIKit
 
-class JVShopcartBrandModel: NSObject {
+
+
+class JVShopcartBrandModel: NSObject,NSCopying {
     
     var brandName: String = ""
     
@@ -21,16 +23,32 @@ class JVShopcartBrandModel: NSObject {
         
         super.init()
         
-        brandName = dict["brandName"] as! String
-        
-        let productArr = dict["products"] as! [NSDictionary]
-        
-        for productModel in productArr{
+        if dict.count != 0{
             
-            let item = JVShopcartProductModel(productModel)
-            products.append(item)
+            brandName = dict["brandName"] as! String
             
+            let productArr = dict["products"] as! [NSDictionary]
+            
+            for productModel in productArr{
+                
+                let item = JVShopcartProductModel(productModel)
+                products.append(item)
+                
+            }
         }
+        
     }
+   
+    func copy(with zone: NSZone? = nil) -> Any{
+     
+     let dic:NSDictionary = [:]
+     let brandModel = JVShopcartBrandModel(dic)
+        brandModel.brandName = self.brandName
+        brandModel.isSelected = self.isSelected
+        brandModel.products = self.products
+
+     return brandModel
     
+    }
+
 }

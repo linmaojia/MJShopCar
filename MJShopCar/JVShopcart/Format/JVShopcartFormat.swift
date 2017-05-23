@@ -58,11 +58,11 @@ class JVShopcartFormat: NSObject{
     //MARK: ********************* 结算点击
     func shopcartBotttomViewSettleBtnBlock() -> [JVShopcartBrandModel]{
         
-        var settleArr = shopcartListArray
-        
+        var settleArr =  shopcartListArray.map{($0.copy() as! JVShopcartBrandModel) }
+ 
+   
         for  brandModel in settleArr
         {
-            
             for  productModel in brandModel.products
             {
                 if productModel.isSelected == false //删除cell
@@ -70,16 +70,14 @@ class JVShopcartFormat: NSObject{
                     let index = brandModel.products.index(of: productModel)
                     brandModel.products.remove(at: index!)
                 }
-                
             }
             if brandModel.products.count == 0 //删除section
             {
                 let index = settleArr.index(of: brandModel)
                 settleArr.remove(at: index!)
             }
-            
         }
-      
+        
         return settleArr
     }
     func deleteChooseCell(){
